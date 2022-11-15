@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#002630')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#002630')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -77,7 +77,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({darkText}) => (darkText ? '#f7f8fa' : '#002630')};
 `
 
 export const BtnWrap = styled.div`
@@ -96,3 +96,68 @@ export const Img = styled.img`
     padding-right: 0;
 `
 
+export const primary = styled.div`
+    background: #C29693;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #010606;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #002630;
+    }
+`
+
+export const dark = styled.div`
+    background: #002630;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #002630;
+    }
+`
+
+export const dark2 = styled.div`
+    background: #002630;
+    white-space: nowrap;
+    padding: 14px 48px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #C29693;
+        color: #002630;
+    }
+`

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Button } from '../ButtonElement';
-import { InfoContainer, InfoWrapper, InfoRow, TextWrapper, Column1, Column2, Heading, TopLine, ImgWrap, BtnWrap, Subtitle, Img, primary, dark, dark2 } from './InfoElement';
+import React from 'react'
+import { Button } from '../ButtonElement'
+import { InfoContainer, InfoWrapper, InfoRow, TextWrapper, Column1, Column2, Heading, TopLine, ImgWrap, BtnWrap, Subtitle, Img, primary, dark, dark2 } from './InfoElement'
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
@@ -29,6 +29,6 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
       </InfoContainer>
     </>
   )
-};
+}
 
 export default InfoSection

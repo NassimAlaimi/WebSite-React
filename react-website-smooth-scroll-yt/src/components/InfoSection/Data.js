@@ -12,38 +12,38 @@ export const homeObjOne = {
     alt: 'Medical',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 }
 
 export const homeObjTwo = {
-    id: 'about',
+    id: 'discover',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'La Fabrique créative de Santé',
-    headline: 'Soigne toi par contre',
-    description: 'Nous sommes une équipe de professionnels de la santé et du bien-être qui vous accompagnons dans votre démarche de mieux-être. Nous vous proposons des ateliers, des formations et des consultations pour vous aider à prendre soin de vous.',
-    buttonLabel: 'Découvrir',
+    topLine: 'Unlimited Access',
+    headline: 'Insane app',
+    description: 'Découvrez nos ateliers et formations pour vous accompagner dans votre démarche de mieux-être.',
+    buttonLabel: 'Learn More',
     imgStart: true,
     img: require('../../images/svg-1.svg'),
     alt: 'Medical',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: false
 }
 
 export const homeObjThree = {
-    id: 'about',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'La Fabrique créative de Santé',
-    headline: 'Soigne toi par contre',
-    description: 'Nous sommes une équipe de professionnels de la santé et du bien-être qui vous accompagnons dans votre démarche de mieux-être. Nous vous proposons des ateliers, des formations et des consultations pour vous aider à prendre soin de vous.',
-    buttonLabel: 'Découvrir',
+    id: 'signup',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Join our Team',
+    headline: 'Create an account today to receive an exclusive offer',
+    description: 'Get acces to our exclusive app',
+    buttonLabel: 'Start Now',
     imgStart: false,
     img: require('../../images/svg-1.svg'),
-    alt: 'Medical',
+    alt: 'Paper',
     dark: true,
     primary: true,
     darkText: false

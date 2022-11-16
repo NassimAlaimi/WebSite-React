@@ -11,7 +11,7 @@ const HeroSection = () => {
   }
 
   return (
-    <HeroContainer id="home">
+    <HeroContainer id='home'>
         <HeroBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
@@ -23,7 +23,7 @@ const HeroSection = () => {
             Nous sommes une agence de communication spécialisée dans la santé et la médecine.
           </HeroP>
           <HeroBtnWrapper>
-            <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+            <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} smooth={true} duration={500} spy={true} exact='true' offset={-80}>
               Commencer {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>

@@ -6,11 +6,11 @@ import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
 
 
-const Navbar = ({ toggle }) => {
-  const [scrollNav, setScrollNav] = useState(false)
+const Navbar = ({ toggle, changeY, defaultState }) => {
+  const [scrollNav, setScrollNav] = useState(defaultState)
 
   const changeNav = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= changeY) {
       setScrollNav(true)
     } else {
       setScrollNav(false)

@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div>
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navebar toggle={toggle}/>
+      <Navebar toggle={toggle} changeY={720} defaultState={false}/>
       <HeroSection />
       <InfoSection {...homeObjOne}/>
       <InfoSection {...homeObjTwo}/>

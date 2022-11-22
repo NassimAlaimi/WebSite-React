@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormContainer, FormH1, FormWrapper, Card, CardIcon, CardH2, CardP } from './FormElement'
+import { ThemeContainer, ThemeH1, ThemeWrapper, Card, CardIcon, CardH2, CardP } from './ThemeElement'
 import Icon1 from '../../images/svg-1.svg'
 import Icon2 from '../../images/svg-2.svg'
 import Icon3 from '../../images/svg-3.svg'
@@ -10,9 +10,9 @@ import Icon6 from '../../images/svg-6.svg'
 
 const FormSection = () => {
   return (
-    <FormContainer>
-      <FormH1>Les Différents Sujets :</FormH1>
-      <FormWrapper>
+    <ThemeContainer>
+      <ThemeH1>Les Différents Sujets :</ThemeH1>
+      <ThemeWrapper>
         <Card>
           <CardIcon src={Icon1}/>
           <CardH2>Questionnaire n°1</CardH2>
@@ -43,8 +43,8 @@ const FormSection = () => {
           <CardP>Lorem ipsum dolor sit amet.</CardP>
         </Card>
 
-      </FormWrapper>
-    </FormContainer>
+      </ThemeWrapper>
+    </ThemeContainer>
   )
 }
 

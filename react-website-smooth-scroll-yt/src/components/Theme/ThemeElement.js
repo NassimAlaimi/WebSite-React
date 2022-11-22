@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FormContainer = styled.div`
+export const ThemeContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -11,7 +11,7 @@ export const FormContainer = styled.div`
     padding: 0 30px;
 `;
 
-export const FormH1 = styled.h1`
+export const ThemeH1 = styled.h1`
     font-size: 2.5rem;
     color: #002630;
     margin-bottom: 64px;
@@ -21,7 +21,7 @@ export const FormH1 = styled.h1`
     }
 `;
 
-export const FormWrapper = styled.div`
+export const ThemeWrapper = styled.div`
     max-width: 1200px;
     margin: 0 auto;
     display: grid;

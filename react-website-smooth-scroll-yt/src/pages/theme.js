@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import FormSection from '../components/Form'
+import FormSection from '../components/Theme'
 import Sidebar from '../components/Sidebar'
 import Navebar from '../components/Navbar'
 

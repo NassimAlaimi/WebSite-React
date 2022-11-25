@@ -40,7 +40,7 @@ export const FooterLinkItems = styled.div`
     text-align: left;
     width: 160px;
     box-sizing: border-box;
-    color: #002630;
+    color: #003a48;
 
     @media screen and (max-width: 420px) {
         margin: 0;
@@ -55,13 +55,13 @@ export const FooterLinkTitle = styled.h1`
 `
 
 export const FooterLink = styled(Link)`
-    color: #002630;
+    color: #003a48;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;
 
     &:hover {
-        color: #C29693;
+        color: #d8aeab;
         transition: 0.3s ease-out;
     }
 `
@@ -84,7 +84,7 @@ export const SocialMediaWrap = styled.div`
 `
 
 export const SocialLogo = styled(Link)`
-    color: #002630;
+    color: #003a48;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -96,7 +96,7 @@ export const SocialLogo = styled(Link)`
 `
 
 export const WebsiteRights = styled.small`
-    color: #002630;
+    color: #003a48;
     margin-bottom: 16px;
 `
 
@@ -108,6 +108,6 @@ export const SocialIcons = styled.div`
 `
 
 export const SocialIconLink = styled.a`
-    color: #002630;
+    color: #003a48;
     font-size: 24px;
 `

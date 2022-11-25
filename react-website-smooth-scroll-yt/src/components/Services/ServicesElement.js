@@ -19,7 +19,7 @@ export const ServicesContainer = styled.div`
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
-    color: #002630;
+    color: #003a48;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {

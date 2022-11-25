@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#002630')};
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#003a48')};
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
@@ -51,7 +51,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: #C29693;
+    color: #d8aeab;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#002630')};
+    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#003a48')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -77,7 +77,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#002630' : '#f7f8fa')};
+    color: ${({darkText}) => (darkText ? '#003a48' : '#f7f8fa')};
 `
 
 export const BtnWrap = styled.div`
@@ -97,7 +97,7 @@ export const Img = styled.img`
 `
 
 export const primary = styled.div`
-    background: #C29693;
+    background: #d8aeab;
     white-space: nowrap;
     padding: 14px 48px;
     color: #010606;
@@ -114,12 +114,12 @@ export const primary = styled.div`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #002630;
+        color: #003a48;
     }
 `
 
 export const dark = styled.div`
-    background: #002630;
+    background: #003a48;
     white-space: nowrap;
     padding: 14px 48px;
     color: #fff;
@@ -136,12 +136,12 @@ export const dark = styled.div`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #002630;
+        color: #003a48;
     }
 `
 
 export const dark2 = styled.div`
-    background: #002630;
+    background: #003a48;
     white-space: nowrap;
     padding: 14px 48px;
     color: #fff;
@@ -157,7 +157,7 @@ export const dark2 = styled.div`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #C29693;
-        color: #002630;
+        background: #d8aeab;
+        color: #003a48;
     }
 `

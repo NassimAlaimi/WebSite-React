@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #002630;
+    background: #003a48;
     display: grid;
     align-items: center;
     top: 0;
@@ -49,7 +49,7 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
 
     &:hover {
-        color: #C29693;
+        color: #d8aeab;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -72,10 +72,10 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;
-    background: #C29693;
+    background: #d8aeab;
     white-space: nowrap;
     padding: 16px 64px;
-    color: #002630;
+    color: #003a48;
     font-size: 16px;
     outline: none;
     border: none;
@@ -86,6 +86,6 @@ export const SidebarRoute = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #002630;
+        color: #003a48;
     }
 `;
